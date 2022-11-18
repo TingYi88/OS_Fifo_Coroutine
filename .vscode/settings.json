@@ -1,0 +1,7 @@
+{
+    "cmake.generator": "MinGW Makefiles",
+    "files.associations": {
+        "coroutine.h": "c",
+        "sched.h": "c"
+    }
+}
