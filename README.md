@@ -36,6 +36,9 @@ sudo dnf install ./codium.rpm
 
 # Install CMake extensions
 codium --install-extension ms-vscode.cmake-tools
+
+# Install Traditional Chinese language pack
+codium --install-extension MS-CEINTL.vscode-language-pack-zh-hant
 ```
 
 ## Build and Run
