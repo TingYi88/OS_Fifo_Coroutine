@@ -1,7 +1,4 @@
 {
-    "cmake.generator": "MinGW Makefiles",
-    "files.associations": {
-        "coroutine.h": "c",
-        "sched.h": "c"
-    }
+    "cmake.generator": "Unix Makefiles",
+    "cmake.buildDirectory": "${workspaceFolder}/build/${buildType}"
 }

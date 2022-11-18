@@ -13,6 +13,8 @@ sudo dnf install gcc gcc-c++ cmake git
 
 ## Configurations
 
+Git
+
 ```shell
 git config --global user.name <YOUR_NAME>
 git config --global user.email <YOUR_EMAIL>
@@ -25,13 +27,30 @@ cat ~/.ssh/id_ed25519.pub
 git clone git@github.com:TingYi88/OS_StackfulCoroutine.git
 ```
 
+VSCode
+
+```
+# Install VSCodium
+curl -L https://github.com/VSCodium/vscodium/releases/download/1.73.1.22314/codium-1.73.1.22314-el7.x86_64.rpm -o codium.rpm
+sudo dnf install ./codium.rpm
+
+# Install CMake extensions
+codium --install-extension ms-vscode.cmake-tools
+```
 
 ## Build and Run
 
+### Command-Line
 ```
 # Setup the project with CMake
+
+# Enter project's root directory
 cd OS_StackfulCoroutine
+
+# Define build directory and generate CMake files
 cmake -B build/Debug
+
+# Compile
 cmake --build build/Debug
 
 # Execute the program
