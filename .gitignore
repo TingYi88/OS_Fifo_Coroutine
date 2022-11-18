@@ -1,3 +1,7 @@
-Coroutine-in-C-main/coroutine.a
+[Bb]uild/
+[Oo]ut/
+**/*.a
+
+
 Coroutine-in-C-main/coroutine.h
 Coroutine-in-C-main/tests/test
