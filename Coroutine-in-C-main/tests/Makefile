@@ -3,7 +3,7 @@ SRC = ../src
 CC ?= gcc
 CFLAG:=-g 
 CFLAG+=-Wall
-CFLAG+=-fsanitize=address
+#CFLAG+=-fsanitize=address
 
 LIB = ../coroutine.a
 
