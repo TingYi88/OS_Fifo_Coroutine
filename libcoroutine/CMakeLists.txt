@@ -7,5 +7,6 @@ target_sources(coroutine PRIVATE
     "src/coroutine.c"
     "src/rbtree.c"
     "src/runqueue.c"
+    "src/runstack.c"
     "src/sched.c"
 )
