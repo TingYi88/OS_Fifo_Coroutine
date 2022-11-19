@@ -1,0 +1,105 @@
+the TA's result would be these below
+
+[tfd 0] 0 added, 0
+[tfd 1] 1 added, 1
+[tfd 2] 2 added, 2
+[tfd 3] 3 added, 3
+[tfd 4] 4 added, 4
+[tfd 5] 5 added, 5
+[tfd 6] 6 added, 6
+[tfd 7] 7 added, 7
+[tfd 8] 8 added, 8
+[tfd 9] 9 added, 9
+[@ job 0] 1 2
+[@ job 9] 1 2
+[@ job 7] 1 2
+[@ job 8] 1 2
+[@ job 5] 1 2
+[@ job 6] 1 2
+[@ job 3] 1 2
+[@ job 4] 1 2
+[@ job 1] 1 2
+[@ job 2] 1 2
+array success
+[# job 3] 2 2
+variable success
+array success
+[# job 5] 2 2
+variable success
+array success
+[# job 6] 2 2
+variable success
+array success
+[# job 2] 2 2
+variable success
+array success
+[# job 8] 2 2
+variable success
+array success
+[# job 7] 2 2
+variable success
+array success
+[# job 1] 2 2
+variable success
+array success
+[# job 4] 2 2
+variable success
+array success
+[# job 9] 2 2
+variable success
+array success
+[# job 0] 2 2
+variable success
+
+mine LIFO result would like this one
+
+[tfd 0] 0 added, 0
+[tfd 1] 1 added, 1
+[tfd 2] 2 added, 2
+[tfd 3] 3 added, 3
+[tfd 4] 4 added, 4
+[tfd 5] 5 added, 5
+[tfd 6] 6 added, 6
+[tfd 7] 7 added, 7
+[tfd 8] 8 added, 8
+[tfd 9] 9 added, 9
+[@ job 0] 1 2
+[@ job 9] 1 2
+[@ job 7] 1 2
+[@ job 8] 1 2
+[@ job 5] 1 2
+[@ job 6] 1 2
+[@ job 3] 1 2
+[@ job 4] 1 2
+[@ job 1] 1 2
+[@ job 2] 1 2
+array success
+[# job 2] 2 2
+variable success
+array success
+[# job 1] 2 2
+variable success
+array success
+[# job 4] 2 2
+variable success
+array success
+[# job 9] 2 2
+variable success
+array success
+[# job 5] 2 2
+variable success
+array success
+[# job 8] 2 2
+variable success
+array success
+[# job 3] 2 2
+variable success
+array success
+[# job 7] 2 2
+variable success
+array success
+[# job 0] 2 2
+variable success
+array success
+[# job 6] 2 2
+variable success
