@@ -20,8 +20,8 @@ int rs_push(struct rs *rs, struct task_struct *task)
     if (!__stackbuffer_unused(rs))
         return -EAGAIN;
 
-    rs->r[rs->top] = task;
     rs->top++;
+    rs->r[rs->top] = task;
 
     return 0;
 }

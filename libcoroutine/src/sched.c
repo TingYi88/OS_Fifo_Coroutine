@@ -54,7 +54,7 @@ static inline int lifo_schedule(struct cr *cr, job_t func, void *args)
     new_task = calloc(1, sizeof(struct task_struct));
     if (!new_task)
         return -ENOMEM;
-    if (rq_enqueue(&cr->rq, new_task) < 0) {
+    if (rs_push(&cr->rs, new_task) < 0) {
         free(new_task);
         return -ENOMEM;
     }
@@ -173,6 +173,7 @@ void sched_init(struct cr *cr)
         cr->schedule = fifo_schedule;
         cr->pick_next_task = fifo_pick_next_task;
         cr->put_prev_task = fifo_put_prev_task;
+	return;
     case CR_LIFO:
         rs_init(&cr->rs);
         cr->schedule = lifo_schedule;
