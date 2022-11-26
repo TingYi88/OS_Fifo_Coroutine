@@ -22,7 +22,7 @@ int main(void)
 {
   int crfd, tfd;
   
-  crfd = coroutine_create(CR_FIFO);
+  crfd = coroutine_create(CR_LIFO);
   tfd = coroutine_add(crfd, myjob, NULL);
   coroutine_start(crfd);
   coroutine_join(crfd);
